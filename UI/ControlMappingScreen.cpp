@@ -22,7 +22,7 @@
 #include "base/colorutil.h"
 #include "base/display.h"
 #include "gfx/texture_atlas.h"
-#include "i18n/i18n.h"
+#include "Common/Data/Text/I18n.h"
 #include "Common/Input/KeyCodes.h"
 #include "Common/Input/InputState.h"
 #include "ui/root.h"

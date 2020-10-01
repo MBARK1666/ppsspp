@@ -23,7 +23,7 @@
 #include "gfx_es2/draw_text.h"
 #include "image/zim_load.h"
 #include "image/png_load.h"
-#include "util/text/utf8.h"
+#include "Common/Data/Encoding/Utf8.h"
 
 #include "Common/Serialize/Serializer.h"
 #include "Common/Serialize/SerializeFuncs.h"

@@ -26,7 +26,7 @@
 #include <sys/time.h>
 #endif
 
-#include "i18n/i18n.h"
+#include "Common/Data/Text/I18n.h"
 #include "profiler/profiler.h"
 
 #include "gfx_es2/gpu_features.h"

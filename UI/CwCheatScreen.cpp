@@ -16,9 +16,9 @@
 // https://github.com/hrydgard/ppsspp and http://www.ppsspp.org/.
 
 #include "ext/xxhash.h"
-#include "i18n/i18n.h"
+#include "Common/Data/Text/I18n.h"
 #include "ui/ui.h"
-#include "util/text/utf8.h"
+#include "Common/Data/Encoding/Utf8.h"
 
 #include "Common/FileUtil.h"
 #include "Common/StringUtils.h"

@@ -433,6 +433,25 @@ add_library(Common STATIC
 	Common/Crypto/sha1.h
 	Common/Crypto/sha256.cpp
 	Common/Crypto/sha256.h
+	Common/Data/Collections/ConstMap.h
+	Common/Data/Collections/TinySet.h
+	Common/Data/Encoding/Base64.cpp
+	Common/Data/Encoding/Base64.h
+	Common/Data/Encoding/Compression.cpp
+	Common/Data/Encoding/Compression.h
+	Common/Data/Encoding/Shiftjis.h
+	Common/Data/Encoding/Utf8.cpp
+	Common/Data/Encoding/Utf8.h
+	Common/Data/Encoding/Utf16.h
+	Common/Data/Hash/Hash.cpp
+	Common/Data/Hash/Hash.h
+	Common/Data/Text/I18n.cpp
+	Common/Data/Text/I18n.h
+	Common/Data/Text/Parsers.cpp
+	Common/Data/Text/Parsers.h
+	Common/Data/Text/WrapText.cpp
+	Common/Data/Text/WrapText.h
+	Common/Data/Random/Rng.h
 	Common/Input/GestureDetector.cpp
 	Common/Input/GestureDetector.h
 	Common/Input/KeyCodes.h

@@ -28,7 +28,7 @@
 #include "file/path.h"
 // TODO: For text align flags, probably shouldn't be in gfx_es2/...
 #include "gfx_es2/draw_buffer.h"
-#include "i18n/i18n.h"
+#include "Common/Data/Text/I18n.h"
 #include "json/json_reader.h"
 #include "net/http_client.h"
 #include "net/resolve.h"

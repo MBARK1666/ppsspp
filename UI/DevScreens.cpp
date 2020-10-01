@@ -20,7 +20,7 @@
 #include "ppsspp_config.h"
 #include "base/display.h"
 #include "gfx_es2/gpu_features.h"
-#include "i18n/i18n.h"
+#include "Common/Data/Text/I18n.h"
 #include "ui/ui_context.h"
 #include "ui/view.h"
 #include "ui/viewgroup.h"

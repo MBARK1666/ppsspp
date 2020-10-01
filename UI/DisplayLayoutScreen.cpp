@@ -22,7 +22,7 @@
 #include "base/display.h"
 #include "gfx/texture_atlas.h"
 #include "gfx_es2/draw_buffer.h"
-#include "i18n/i18n.h"
+#include "Common/Data/Text/I18n.h"
 #include "ui/ui_context.h"
 #include "ui/view.h"
 

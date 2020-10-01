@@ -29,7 +29,7 @@
 #include "ui/ui_context.h"
 #include "ui/view.h"
 #include "ui/viewgroup.h"
-#include "util/text/utf8.h"
+#include "Common/Data/Encoding/Utf8.h"
 
 #include "Common/FileUtil.h"
 #include "Common/TimeUtil.h"
@@ -56,7 +56,7 @@
 #include "Core/Config.h"
 #include "Core/Loaders.h"
 #include "GPU/GPUInterface.h"
-#include "i18n/i18n.h"
+#include "Common/Data/Text/I18n.h"
 
 #include "Core/HLE/sceDisplay.h"
 #include "Core/HLE/sceUmd.h"

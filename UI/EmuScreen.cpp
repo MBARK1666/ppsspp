@@ -33,7 +33,7 @@
 #include "ui/ui_context.h"
 #include "ui/ui_tween.h"
 #include "ui/view.h"
-#include "i18n/i18n.h"
+#include "Common/Data/Text/I18n.h"
 
 #include "Common/KeyMap.h"
 #include "Common/Log.h"
