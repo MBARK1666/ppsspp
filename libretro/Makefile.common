@@ -145,6 +145,8 @@ SOURCES_CXX += \
 SOURCES_CXX += \
 	$(COMMONDIR)/Data/Collections/ConstMap.h \
 	$(COMMONDIR)/Data/Collections/TinySet.h \
+	$(COMMONDIR)/Data/Color/RGBAUtil.h \
+	$(COMMONDIR)/Data/Color/RGBAUtil.cpp \
 	$(COMMONDIR)/Data/Encoding/Base64.cpp \
 	$(COMMONDIR)/Data/Encoding/Compression.cpp \
 	$(COMMONDIR)/Data/Encoding/Utf8.cpp \
@@ -233,7 +235,6 @@ SOURCES_CXX += \
 	$(GPUDIR)/GLES/ShaderManagerGLES.cpp \
 	$(GPUDIR)/GLES/StateMappingGLES.cpp \
 	$(GPUDIR)/GLES/StencilBufferGLES.cpp \
-	$(EXTDIR)/native/base/colorutil.cpp \
 	$(EXTDIR)/native/base/display.cpp \
 	$(EXTDIR)/native/json/json_reader.cpp \
 	$(EXTDIR)/glslang/OGLCompilersDLL/InitializeDll.cpp \

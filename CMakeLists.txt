@@ -435,6 +435,8 @@ add_library(Common STATIC
 	Common/Crypto/sha256.h
 	Common/Data/Collections/ConstMap.h
 	Common/Data/Collections/TinySet.h
+	Common/Data/Color/RGBAUtil.cpp
+	Common/Data/Color/RGBAUtil.h
 	Common/Data/Encoding/Base64.cpp
 	Common/Data/Encoding/Base64.h
 	Common/Data/Encoding/Compression.cpp
@@ -976,14 +978,8 @@ endif()
 
 add_library(native STATIC
 	${nativeExtra}
-	ext/native/base/colorutil.cpp
-	ext/native/base/colorutil.h
 	ext/native/base/display.cpp
 	ext/native/base/display.h
-	ext/native/data/base64.cpp
-	ext/native/data/base64.h
-	ext/native/data/compression.cpp
-	ext/native/data/compression.h
 	ext/native/file/chunk_file.cpp
 	ext/native/file/chunk_file.h
 	ext/native/file/fd_util.cpp
@@ -1024,8 +1020,6 @@ add_library(native STATIC
 	ext/native/gfx_es2/glsl_program.h
 	ext/native/gfx_es2/gl3stub.c
 	ext/native/gfx_es2/gl3stub.h
-	ext/native/i18n/i18n.cpp
-	ext/native/i18n/i18n.h
 	ext/native/image/png_load.cpp
 	ext/native/image/png_load.h
 	ext/native/image/zim_load.cpp
@@ -1088,17 +1082,6 @@ add_library(native STATIC
 	ext/native/ui/view.h
 	ext/native/ui/viewgroup.cpp
 	ext/native/ui/viewgroup.h
-	ext/native/util/hash/hash.cpp
-	ext/native/util/hash/hash.h
-	ext/native/util/random/rng.h
-	ext/native/util/text/utf8.h
-	ext/native/util/text/utf8.cpp
-	ext/native/util/text/parsers.h
-	ext/native/util/text/parsers.cpp
-	ext/native/util/text/wrap_text.h
-	ext/native/util/text/wrap_text.cpp
-	ext/native/util/const_map.h
-	ext/native/util/tiny_set.h
 	ext/jpge/jpgd.cpp
 	ext/jpge/jpgd.h
 	ext/jpge/jpge.cpp

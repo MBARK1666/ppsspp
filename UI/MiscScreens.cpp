@@ -20,7 +20,7 @@
 #include <algorithm>
 #include <functional>
 
-#include "base/colorutil.h"
+#include "Common/Data/Color/RGBAUtil.h"
 #include "base/display.h"
 #include "gfx_es2/draw_buffer.h"
 #include "math/curves.h"

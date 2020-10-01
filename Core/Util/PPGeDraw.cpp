@@ -17,7 +17,7 @@
 
 #include <algorithm>
 
-#include "base/colorutil.h"
+#include "Common/Data/Color/RGBAUtil.h"
 #include "file/vfs.h"
 #include "gfx/texture_atlas.h"
 #include "gfx_es2/draw_text.h"

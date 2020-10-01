@@ -361,6 +361,7 @@
     <ClInclude Include="Buffer.h" />
     <ClInclude Include="Data\Collections\ConstMap.h" />
     <ClInclude Include="Data\Collections\TinySet.h" />
+    <ClInclude Include="Data\Color\RGBAUtil.h" />
     <ClInclude Include="Data\Encoding\Base64.h" />
     <ClInclude Include="Data\Encoding\Compression.h" />
     <ClInclude Include="Data\Encoding\Shiftjis.h" />
@@ -626,6 +627,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Data\Color\RGBAUtil.cpp" />
     <ClCompile Include="Data\Encoding\Base64.cpp" />
     <ClCompile Include="Data\Encoding\Compression.cpp" />
     <ClCompile Include="Data\Encoding\Utf8.cpp" />

@@ -173,6 +173,9 @@
     <ClInclude Include="Data\Collections\TinySet.h">
       <Filter>Data\Collections</Filter>
     </ClInclude>
+    <ClInclude Include="Data\Color\RGBAUtil.h">
+      <Filter>Data\Color</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ABI.cpp" />
@@ -327,6 +330,9 @@
     <ClCompile Include="Data\Hash\Hash.cpp">
       <Filter>Data\Hash</Filter>
     </ClCompile>
+    <ClCompile Include="Data\Color\RGBAUtil.cpp">
+      <Filter>Data\Color</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Crypto">
@@ -373,6 +379,9 @@
     </Filter>
     <Filter Include="Data\Text">
       <UniqueIdentifier>{c2d25b54-23fc-4e80-8d9b-5d7e94fe557e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Color">
+      <UniqueIdentifier>{1ada1f0f-6f1c-4bf2-8450-1fc63d77da17}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

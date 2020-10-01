@@ -19,7 +19,7 @@
 #include <deque>
 #include <mutex>
 
-#include "base/colorutil.h"
+#include "Common/Data/Color/RGBAUtil.h"
 #include "base/display.h"
 #include "gfx/texture_atlas.h"
 #include "Common/Data/Text/I18n.h"

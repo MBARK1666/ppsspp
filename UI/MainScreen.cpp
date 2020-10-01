@@ -19,7 +19,7 @@
 #include <algorithm>
 
 #include "ppsspp_config.h"
-#include "base/colorutil.h"
+#include "Common/Data/Color/RGBAUtil.h"
 #include "base/display.h"
 #include "file/path.h"
 #include "gfx/texture_atlas.h"

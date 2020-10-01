@@ -65,9 +65,6 @@
     <ClInclude Include="math\math_util.h">
       <Filter>math</Filter>
     </ClInclude>
-    <ClInclude Include="base\colorutil.h">
-      <Filter>base</Filter>
-    </ClInclude>
     <ClInclude Include="json\json_writer.h">
       <Filter>json</Filter>
     </ClInclude>
@@ -261,9 +258,6 @@
     </ClCompile>
     <ClCompile Include="gfx\texture_atlas.cpp">
       <Filter>gfx</Filter>
-    </ClCompile>
-    <ClCompile Include="base\colorutil.cpp">
-      <Filter>base</Filter>
     </ClCompile>
     <ClCompile Include="json\json_writer.cpp">
       <Filter>json</Filter>

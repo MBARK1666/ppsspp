@@ -16,7 +16,7 @@
 // https://github.com/hrydgard/ppsspp and http://www.ppsspp.org/.
 
 #include "Common/Data/Text/I18n.h"
-#include "base/colorutil.h"
+#include "Common/Data/Color/RGBAUtil.h"
 #include "base/display.h"
 #include "file/path.h"
 #include "gfx_es2/draw_buffer.h"

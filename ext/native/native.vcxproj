@@ -380,7 +380,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Qt\QtMain.h" />
-    <ClInclude Include="base\colorutil.h" />
     <ClInclude Include="base\display.h" />
     <ClInclude Include="base\NativeApp.h" />
     <ClInclude Include="file\chunk_file.h" />
@@ -448,7 +447,6 @@
     <ClInclude Include="ui\viewgroup.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="base\colorutil.cpp" />
     <ClCompile Include="base\display.cpp" />
     <ClCompile Include="..\..\SDL\SDLMain.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>

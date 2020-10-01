@@ -18,7 +18,7 @@
 #include <algorithm>
 #include <vector>
 
-#include "base/colorutil.h"
+#include "Common/Data/Color/RGBAUtil.h"
 #include "base/display.h"
 #include "gfx/texture_atlas.h"
 #include "gfx_es2/draw_buffer.h"
